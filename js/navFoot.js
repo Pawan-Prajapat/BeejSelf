@@ -1,6 +1,6 @@
 
 const nav = document.querySelector('.navbar')
-fetch('../html/navbar.html')
+fetch('../navbar.html')
 .then(res=>res.text())
 .then(data=>{
     nav.innerHTML=data
@@ -8,7 +8,7 @@ fetch('../html/navbar.html')
 
 
 const foot = document.querySelector('.footer')
-fetch('../html/footer.html')
+fetch('../footer.html')
 .then(res=>res.text())
 .then(data=>{
     foot.innerHTML=data
